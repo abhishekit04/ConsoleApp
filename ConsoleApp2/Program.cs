@@ -20,4 +20,4 @@ int second = moment.Second;
 // Millisecond gets 11.
 int millisecond = moment.Millisecond;
 
-Console.WriteLine($"This Year is {year}\nthis month is {month}\n{day}\n{hour}\n{minute}\n{second}\n{millisecond} ");
+Console.WriteLine($"{day}/{month}/{year} {hour}:{minute}:{second}:{millisecond} ");
